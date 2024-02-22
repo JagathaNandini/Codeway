@@ -1,0 +1,25 @@
+a=int(input())
+b=int(input())
+def add(a,b):
+    return(a+b)
+def subtract(a,b):
+    return(a-b)
+def multiply(a,b):
+    return(a*b)
+def divide(a,b):
+    return(a/b)
+choice=input("+,-,*,/:")  
+if(choice=="+"):
+    add=add(a,b)
+    print(add)
+elif(choice=="-"):
+    subtract=subtract(a,b)
+    print(subtract)
+elif(choice=="*"):
+    multiply=multiply(a,b)
+    print(multiply)
+elif(choice=="/"):
+    divide=divide(a,b)
+    print(divide)
+else:
+    print("entered operator is invalid")
